@@ -22,7 +22,7 @@ spec:
       imagePullSecrets:
         - name: regcred
       containers:
-        - image: registry.hub.docker.com/kumarmanvit/codeexample:latest
+        - image: kumarmanvit/codeexample:1.1
           imagePullPolicy: Always
           name: code-test
           ports:

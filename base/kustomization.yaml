@@ -6,5 +6,5 @@ resources:
   - deployment.yaml
   - service.yaml
 images:
-  - name: registry.hub.docker.com/kumarmanvit/codeexample
-    newTag: 1.1
+  - name: kumarmanvit/codeexample:1.1
+    
